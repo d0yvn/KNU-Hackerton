@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */; };
 		78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */; };
-		78D6A3502791710F00EC6DE9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A34F2791710F00EC6DE9 /* LoginController.swift */; };
-		78D6A3552791711200EC6DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A3542791711200EC6DE9 /* Assets.xcassets */; };
 		78D6A3582791711200EC6DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */; };
 		78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A35F2791729000EC6DE9 /* Utilities.swift */; };
 		78D6A3622791729000EC6DE9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A3602791729000EC6DE9 /* Extension.swift */; };
-		78D6A364279172A200EC6DE9 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A363279172A200EC6DE9 /* Services */; };
-		78D6A366279172B500EC6DE9 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A365279172B500EC6DE9 /* ViewController */; };
+		78D6A36A2791740600EC6DE9 /* DaumMap.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */; };
+		78D6A37E279175AD00EC6DE9 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A37D279175AC00EC6DE9 /* MapController.swift */; };
+		78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */; };
+		78D6A3832791774000EC6DE9 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A3822791774000EC6DE9 /* DaumMap.framework */; };
+		78D6A38B279179ED00EC6DE9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A38A279179ED00EC6DE9 /* OpenGLES.framework */; };
+		78D6A38D279179F400EC6DE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A38C279179F400EC6DE9 /* SystemConfiguration.framework */; };
+		78D6A38F279179FA00EC6DE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A38E279179FA00EC6DE9 /* CoreLocation.framework */; };
+		78D6A39127917A0000EC6DE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39027917A0000EC6DE9 /* QuartzCore.framework */; };
+		78D6A39527917A5800EC6DE9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */; };
+		78D6A39627917A6400EC6DE9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39227917A0600EC6DE9 /* libc++.tbd */; };
+		78D6A39727917A7200EC6DE9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39327917A0C00EC6DE9 /* libxml2.tbd */; };
 		94708C8F2C4DDB7EA07647D2 /* Pods_KNU_Hackerton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782AF83E6AB0073C6F10E0F4 /* Pods_KNU_Hackerton.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +31,24 @@
 		78D6A3482791710F00EC6DE9 /* KNU_Hackerton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNU_Hackerton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78D6A34F2791710F00EC6DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		78D6A3542791711200EC6DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78D6A3572791711200EC6DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D6A3592791711200EC6DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78D6A35F2791729000EC6DE9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		78D6A3602791729000EC6DE9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		78D6A363279172A200EC6DE9 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
-		78D6A365279172B500EC6DE9 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
+		78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
+		78D6A37A279175A000EC6DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ViewController/Authentication/LoginController.swift; sourceTree = "<group>"; };
+		78D6A37C279175AA00EC6DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78D6A37D279175AC00EC6DE9 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginService.swift; sourceTree = "<group>"; };
+		78D6A3812791763B00EC6DE9 /* KNU_Hackerton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KNU_Hackerton-Bridging-Header.h"; sourceTree = "<group>"; };
+		78D6A3822791774000EC6DE9 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
+		78D6A38A279179ED00EC6DE9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		78D6A38C279179F400EC6DE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78D6A38E279179FA00EC6DE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		78D6A39027917A0000EC6DE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78D6A39227917A0600EC6DE9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		78D6A39327917A0C00EC6DE9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		AABF4E8CE69A1CB990D5FD0A /* Pods-KNU_Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
 		BAEE76246BC55A7474952658 /* Pods-KNU_Hackerton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.release.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +59,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				94708C8F2C4DDB7EA07647D2 /* Pods_KNU_Hackerton.framework in Frameworks */,
+				78D6A38F279179FA00EC6DE9 /* CoreLocation.framework in Frameworks */,
+				78D6A39627917A6400EC6DE9 /* libc++.tbd in Frameworks */,
+				78D6A39527917A5800EC6DE9 /* libsqlite3.tbd in Frameworks */,
+				78D6A39127917A0000EC6DE9 /* QuartzCore.framework in Frameworks */,
+				78D6A3832791774000EC6DE9 /* DaumMap.framework in Frameworks */,
+				78D6A39727917A7200EC6DE9 /* libxml2.tbd in Frameworks */,
+				78D6A38D279179F400EC6DE9 /* SystemConfiguration.framework in Frameworks */,
+				78D6A38B279179ED00EC6DE9 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +76,15 @@
 		26AB25187751A8C67FE28DC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */,
+				78D6A39327917A0C00EC6DE9 /* libxml2.tbd */,
+				78D6A39227917A0600EC6DE9 /* libc++.tbd */,
+				78D6A39027917A0000EC6DE9 /* QuartzCore.framework */,
+				78D6A38E279179FA00EC6DE9 /* CoreLocation.framework */,
+				78D6A38C279179F400EC6DE9 /* SystemConfiguration.framework */,
+				78D6A38A279179ED00EC6DE9 /* OpenGLES.framework */,
+				78D6A3822791774000EC6DE9 /* DaumMap.framework */,
+				78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */,
 				782AF83E6AB0073C6F10E0F4 /* Pods_KNU_Hackerton.framework */,
 			);
 			name = Frameworks;
@@ -62,13 +96,13 @@
 				AABF4E8CE69A1CB990D5FD0A /* Pods-KNU_Hackerton.debug.xcconfig */,
 				BAEE76246BC55A7474952658 /* Pods-KNU_Hackerton.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		78D6A33F2791710F00EC6DE9 = {
 			isa = PBXGroup;
 			children = (
+				78D6A3812791763B00EC6DE9 /* KNU_Hackerton-Bridging-Header.h */,
 				78D6A34A2791710F00EC6DE9 /* KNU_Hackerton */,
 				78D6A3492791710F00EC6DE9 /* Products */,
 				34B4714AD7006C472E60804C /* Pods */,
@@ -89,13 +123,13 @@
 			children = (
 				78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */,
 				78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */,
-				78D6A34F2791710F00EC6DE9 /* LoginController.swift */,
-				78D6A365279172B500EC6DE9 /* ViewController */,
-				78D6A3542791711200EC6DE9 /* Assets.xcassets */,
+				78D6A37A279175A000EC6DE9 /* LoginController.swift */,
+				78D6A37D279175AC00EC6DE9 /* MapController.swift */,
 				78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */,
-				78D6A363279172A200EC6DE9 /* Services */,
+				78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */,
 				78D6A3602791729000EC6DE9 /* Extension.swift */,
 				78D6A35F2791729000EC6DE9 /* Utilities.swift */,
+				78D6A37C279175AA00EC6DE9 /* Assets.xcassets */,
 				78D6A3592791711200EC6DE9 /* Info.plist */,
 			);
 			path = KNU_Hackerton;
@@ -161,10 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D6A364279172A200EC6DE9 /* Services in Resources */,
-				78D6A366279172B500EC6DE9 /* ViewController in Resources */,
+				78D6A36A2791740600EC6DE9 /* DaumMap.embeddedframework in Resources */,
 				78D6A3582791711200EC6DE9 /* LaunchScreen.storyboard in Resources */,
-				78D6A3552791711200EC6DE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D6A3622791729000EC6DE9 /* Extension.swift in Sources */,
-				78D6A3502791710F00EC6DE9 /* LoginController.swift in Sources */,
 				78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */,
 				78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */,
+				78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */,
 				78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */,
+				78D6A37E279175AD00EC6DE9 /* MapController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +281,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -290,12 +323,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/doyun/Desktop/KNU_Hackerton/KNU_Hackerton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -309,7 +343,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -345,11 +379,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/doyun/Desktop/KNU_Hackerton/KNU_Hackerton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -364,6 +399,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R39BMBYFW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KNU_Hackerton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -394,6 +433,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R39BMBYFW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KNU_Hackerton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

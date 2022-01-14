@@ -6,6 +6,10 @@
 //
 
 import UIKit
+//import KakaoSDKAuth
+//import KakaoSDKUser
+//import KakaoSDKCommon
+//import NaverThirdPartyLogin
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
