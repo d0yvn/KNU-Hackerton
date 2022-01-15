@@ -23,6 +23,7 @@
 		78D6A39527917A5800EC6DE9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */; };
 		78D6A39627917A6400EC6DE9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39227917A0600EC6DE9 /* libc++.tbd */; };
 		78D6A39727917A7200EC6DE9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39327917A0C00EC6DE9 /* libxml2.tbd */; };
+		78D6A39B2791897000EC6DE9 /* StoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A39A2791897000EC6DE9 /* StoreListView.swift */; };
 		94708C8F2C4DDB7EA07647D2 /* Pods_KNU_Hackerton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782AF83E6AB0073C6F10E0F4 /* Pods_KNU_Hackerton.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		78D6A39227917A0600EC6DE9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		78D6A39327917A0C00EC6DE9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		78D6A39A2791897000EC6DE9 /* StoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListView.swift; sourceTree = "<group>"; };
 		AABF4E8CE69A1CB990D5FD0A /* Pods-KNU_Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
 		BAEE76246BC55A7474952658 /* Pods-KNU_Hackerton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.release.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */,
 				78D6A37A279175A000EC6DE9 /* LoginController.swift */,
 				78D6A37D279175AC00EC6DE9 /* MapController.swift */,
+				78D6A39A2791897000EC6DE9 /* StoreListView.swift */,
 				78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */,
 				78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */,
 				78D6A3602791729000EC6DE9 /* Extension.swift */,
@@ -251,6 +254,7 @@
 			files = (
 				78D6A3622791729000EC6DE9 /* Extension.swift in Sources */,
 				78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */,
+				78D6A39B2791897000EC6DE9 /* StoreListView.swift in Sources */,
 				78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */,
 				78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */,
 				78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */,
