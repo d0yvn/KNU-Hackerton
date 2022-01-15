@@ -1,14 +1,14 @@
 //
-//  MapController.swift
-//  COVID19
+//  StoreListView.swift
+//  KNU_Hackerton
 //
 //  Created by doyun on 2022/01/14.
 //
 
-import Foundation
 import UIKit
 
-class MapController:UIViewController {
+private let reuseIdentifier = "StoreCell"
+class StoreListController: UITableViewController {
     
     //MARK: - Properties
     private var isSearchMode:Bool {
@@ -17,32 +17,40 @@ class MapController:UIViewController {
     
     private let searchController = UISearchController(searchResultsController: nil)
     
+    //MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let map = MTMapView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
-        
-        view.addSubview(map)
+        tableView.register(StoreCell.self, forCellReuseIdentifier: reuseIdentifier)
         configureSearchController()
+        
     }
-    
+
+ 
     //MARK: - configure
     func configureSearchController() {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.hidesNavigationBarDuringPresentation = false
         searchController.searchBar.placeholder = "Search for a user"
-        navigationItem.searchController = searchController
+        self.tableView.tableHeaderView = searchController.searchBar
         definesPresentationContext = false
     }
 }
-extension MapController:UISearchResultsUpdating {
+extension StoreListController:UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         guard let searchText = searchController.searchBar.text?.lowercased() else { return }
         print(searchText)
 //        filterdUsers = users.filter({ $0.username.contains(searchText)})
     }
 }
-extension MapController:MTMapViewDelegate {
-    
+
+extension StoreListController {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? StoreCell else { return UITableViewCell()}
+        return cell
+    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
 }

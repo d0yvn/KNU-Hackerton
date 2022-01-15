@@ -23,7 +23,10 @@
 		78D6A39527917A5800EC6DE9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */; };
 		78D6A39627917A6400EC6DE9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39227917A0600EC6DE9 /* libc++.tbd */; };
 		78D6A39727917A7200EC6DE9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6A39327917A0C00EC6DE9 /* libxml2.tbd */; };
-		78D6A39B2791897000EC6DE9 /* StoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A39A2791897000EC6DE9 /* StoreListView.swift */; };
+		78D6A39B2791897000EC6DE9 /* StoreListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A39A2791897000EC6DE9 /* StoreListController.swift */; };
+		78D6A3C127931BBA00EC6DE9 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A3C027931BBA00EC6DE9 /* StoreCell.swift */; };
+		78D6A3C527931D3600EC6DE9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A3C427931D3600EC6DE9 /* Store.swift */; };
+		78D6A3C82793260900EC6DE9 /* StoreHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A3C72793260900EC6DE9 /* StoreHeaderCell.swift */; };
 		94708C8F2C4DDB7EA07647D2 /* Pods_KNU_Hackerton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782AF83E6AB0073C6F10E0F4 /* Pods_KNU_Hackerton.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +40,7 @@
 		78D6A35F2791729000EC6DE9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		78D6A3602791729000EC6DE9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
-		78D6A37A279175A000EC6DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ViewController/Authentication/LoginController.swift; sourceTree = "<group>"; };
+		78D6A37A279175A000EC6DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		78D6A37C279175AA00EC6DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78D6A37D279175AC00EC6DE9 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginService.swift; sourceTree = "<group>"; };
@@ -50,7 +53,10 @@
 		78D6A39227917A0600EC6DE9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		78D6A39327917A0C00EC6DE9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		78D6A39427917A1300EC6DE9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		78D6A39A2791897000EC6DE9 /* StoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListView.swift; sourceTree = "<group>"; };
+		78D6A39A2791897000EC6DE9 /* StoreListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListController.swift; sourceTree = "<group>"; };
+		78D6A3C027931BBA00EC6DE9 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		78D6A3C427931D3600EC6DE9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		78D6A3C72793260900EC6DE9 /* StoreHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHeaderCell.swift; sourceTree = "<group>"; };
 		AABF4E8CE69A1CB990D5FD0A /* Pods-KNU_Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
 		BAEE76246BC55A7474952658 /* Pods-KNU_Hackerton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNU_Hackerton.release.xcconfig"; path = "Target Support Files/Pods-KNU_Hackerton/Pods-KNU_Hackerton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,9 +131,9 @@
 			children = (
 				78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */,
 				78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */,
-				78D6A37A279175A000EC6DE9 /* LoginController.swift */,
-				78D6A37D279175AC00EC6DE9 /* MapController.swift */,
-				78D6A39A2791897000EC6DE9 /* StoreListView.swift */,
+				78D6A3C627931D3C00EC6DE9 /* Model */,
+				78D6A3C327931C3500EC6DE9 /* View */,
+				78D6A3C227931BE100EC6DE9 /* Controller */,
 				78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */,
 				78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */,
 				78D6A3602791729000EC6DE9 /* Extension.swift */,
@@ -136,6 +142,33 @@
 				78D6A3592791711200EC6DE9 /* Info.plist */,
 			);
 			path = KNU_Hackerton;
+			sourceTree = "<group>";
+		};
+		78D6A3C227931BE100EC6DE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78D6A37A279175A000EC6DE9 /* LoginController.swift */,
+				78D6A37D279175AC00EC6DE9 /* MapController.swift */,
+				78D6A39A2791897000EC6DE9 /* StoreListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78D6A3C327931C3500EC6DE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78D6A3C027931BBA00EC6DE9 /* StoreCell.swift */,
+				78D6A3C72793260900EC6DE9 /* StoreHeaderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78D6A3C627931D3C00EC6DE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78D6A3C427931D3600EC6DE9 /* Store.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +287,14 @@
 			files = (
 				78D6A3622791729000EC6DE9 /* Extension.swift in Sources */,
 				78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */,
-				78D6A39B2791897000EC6DE9 /* StoreListView.swift in Sources */,
+				78D6A3C82793260900EC6DE9 /* StoreHeaderCell.swift in Sources */,
+				78D6A39B2791897000EC6DE9 /* StoreListController.swift in Sources */,
+				78D6A3C527931D3600EC6DE9 /* Store.swift in Sources */,
 				78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */,
 				78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */,
 				78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */,
 				78D6A37E279175AD00EC6DE9 /* MapController.swift in Sources */,
+				78D6A3C127931BBA00EC6DE9 /* StoreCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
