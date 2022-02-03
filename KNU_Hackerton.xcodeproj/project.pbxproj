@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78080AD127A7A0350043461C /* MainTapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080AD027A7A0350043461C /* MainTapController.swift */; };
+		78080AD327A7A10C0043461C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080AD227A7A10C0043461C /* HomeViewController.swift */; };
+		78080AD527A81B8F0043461C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080AD427A81B8F0043461C /* PostViewController.swift */; };
+		78080AD727A823EB0043461C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080AD627A823EB0043461C /* ChatViewController.swift */; };
+		78080AD927A823F60043461C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080AD827A823F60043461C /* ProfileViewController.swift */; };
 		78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */; };
 		78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A34D2791710F00EC6DE9 /* SceneDelegate.swift */; };
 		78D6A3582791711200EC6DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */; };
 		78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A35F2791729000EC6DE9 /* Utilities.swift */; };
-		78D6A3622791729000EC6DE9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A3602791729000EC6DE9 /* Extension.swift */; };
 		78D6A36A2791740600EC6DE9 /* DaumMap.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */; };
 		78D6A37E279175AD00EC6DE9 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A37D279175AC00EC6DE9 /* MapController.swift */; };
 		78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */; };
@@ -31,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78080AD027A7A0350043461C /* MainTapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapController.swift; sourceTree = "<group>"; };
+		78080AD227A7A10C0043461C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78080AD427A81B8F0043461C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		78080AD627A823EB0043461C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		78080AD827A823F60043461C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		782AF83E6AB0073C6F10E0F4 /* Pods_KNU_Hackerton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNU_Hackerton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D6A3482791710F00EC6DE9 /* KNU_Hackerton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNU_Hackerton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D6A34B2791710F00EC6DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +47,6 @@
 		78D6A3572791711200EC6DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D6A3592791711200EC6DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78D6A35F2791729000EC6DE9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		78D6A3602791729000EC6DE9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		78D6A3692791740600EC6DE9 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
 		78D6A37A279175A000EC6DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		78D6A37C279175AA00EC6DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,7 +144,6 @@
 				78D6A3C227931BE100EC6DE9 /* Controller */,
 				78D6A3562791711200EC6DE9 /* LaunchScreen.storyboard */,
 				78D6A37F279175B500EC6DE9 /* SNSLoginService.swift */,
-				78D6A3602791729000EC6DE9 /* Extension.swift */,
 				78D6A35F2791729000EC6DE9 /* Utilities.swift */,
 				78D6A37C279175AA00EC6DE9 /* Assets.xcassets */,
 				78D6A3592791711200EC6DE9 /* Info.plist */,
@@ -150,6 +157,11 @@
 				78D6A37A279175A000EC6DE9 /* LoginController.swift */,
 				78D6A37D279175AC00EC6DE9 /* MapController.swift */,
 				78D6A39A2791897000EC6DE9 /* StoreListController.swift */,
+				78080AD027A7A0350043461C /* MainTapController.swift */,
+				78080AD227A7A10C0043461C /* HomeViewController.swift */,
+				78080AD427A81B8F0043461C /* PostViewController.swift */,
+				78080AD627A823EB0043461C /* ChatViewController.swift */,
+				78080AD827A823F60043461C /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,15 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D6A3622791729000EC6DE9 /* Extension.swift in Sources */,
 				78D6A34C2791710F00EC6DE9 /* AppDelegate.swift in Sources */,
+				78080AD527A81B8F0043461C /* PostViewController.swift in Sources */,
 				78D6A3C82793260900EC6DE9 /* StoreHeaderCell.swift in Sources */,
 				78D6A39B2791897000EC6DE9 /* StoreListController.swift in Sources */,
+				78080AD927A823F60043461C /* ProfileViewController.swift in Sources */,
 				78D6A3C527931D3600EC6DE9 /* Store.swift in Sources */,
 				78D6A3612791729000EC6DE9 /* Utilities.swift in Sources */,
 				78D6A380279175B500EC6DE9 /* SNSLoginService.swift in Sources */,
 				78D6A34E2791710F00EC6DE9 /* SceneDelegate.swift in Sources */,
+				78080AD327A7A10C0043461C /* HomeViewController.swift in Sources */,
+				78080AD727A823EB0043461C /* ChatViewController.swift in Sources */,
 				78D6A37E279175AD00EC6DE9 /* MapController.swift in Sources */,
+				78080AD127A7A0350043461C /* MainTapController.swift in Sources */,
 				78D6A3C127931BBA00EC6DE9 /* StoreCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +461,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KNU_Hackerton/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = request;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -479,6 +496,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KNU_Hackerton/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = request;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

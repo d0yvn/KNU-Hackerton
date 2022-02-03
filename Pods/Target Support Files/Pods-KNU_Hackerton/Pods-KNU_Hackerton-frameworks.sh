@@ -184,6 +184,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKAuth/KakaoSDKAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKCommon/KakaoSDKCommon.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKUser/KakaoSDKUser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
   install_framework "${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -196,6 +198,8 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKAuth/KakaoSDKAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKCommon/KakaoSDKCommon.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KakaoSDKUser/KakaoSDKUser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
   install_framework "${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import FloatingPanel
 
 private let reuseIdentifier = "StoreCell"
+
 class StoreListController: UITableViewController {
     
     //MARK: - Properties
+    
     private var isSearchMode:Bool {
         return searchController.isActive && !searchController.searchBar.text!.isEmpty
     }
@@ -23,9 +26,8 @@ class StoreListController: UITableViewController {
         super.viewDidLoad()
         tableView.register(StoreCell.self, forCellReuseIdentifier: reuseIdentifier)
         configureSearchController()
-        
+        searchController.searchBar.isHidden = true
     }
-
  
     //MARK: - configure
     func configureSearchController() {
@@ -37,6 +39,7 @@ class StoreListController: UITableViewController {
         definesPresentationContext = false
     }
 }
+
 extension StoreListController:UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         guard let searchText = searchController.searchBar.text?.lowercased() else { return }
@@ -52,5 +55,15 @@ extension StoreListController {
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
+    }
+}
+
+extension StoreListController: MapControllerDelegate {
+    func updateSearchBar(_ state: FloatingPanelState) {
+        print("DEBUG : \(state)")
+        let controller = MapController()
+        controller.delegate = self
+        
+        searchController.searchBar.isHidden = state == .full ? false:true
     }
 }
